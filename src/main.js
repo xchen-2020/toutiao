@@ -5,7 +5,9 @@ import App from './App.vue'
 import router from './router'
 // 引入vuex的配置
 import store from './store'
-
+//引入axios
+// import axios from '../common/myaxios'
+// Vue.prototype.$axios=axios;
 Vue.config.productionTip = false
 // 创建一个vue实例
 new Vue({

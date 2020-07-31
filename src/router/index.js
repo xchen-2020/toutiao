@@ -2,8 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 //引入Home组件
 import Home from '../views/Home.vue'
-//将VueRouter 混入到Vue中
-//this.$router
 Vue.use(VueRouter)
 
   const routes = [
@@ -25,7 +23,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   // mode: 'history',
-  // base: process.env.BASE_URL,
+  base: process.env.BASE_URL,
   routes
 })
 
